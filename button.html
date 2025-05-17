@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .sub{
+        background-color: brown;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.15s ;
+
+    }
+    .sub:hover{
+        box-shadow: 5px 5px 10px black;
+        background-color: grey;
+    }
+
+    .log{
+        background-color: white;
+        border: solid;
+        border-color: rgb(10, 154, 106);
+        border-radius: 10px;
+        padding:12px;
+        cursor: pointer;
+        transition: padding 0.15s;
+    }
+    .log:active{
+        color: aqua;
+        border-color: aqua;
+        padding: 15px;
+        
+    }
+
+    .roll{
+        padding: 15px;
+        border-radius: 15px;
+        transition: background-color 3s ,transform 2s ease;
+    }
+
+    .roll:hover{
+        transform: rotate(360deg) translateX(30px); 
+        background-color: bisque;
+        
+    }
+
+    .exp{
+        padding: 2%;
+        background-color: rgb(172, 117, 224);
+        border: none;
+        border-radius: 5px;
+        margin-left: 35px;
+        transition: transform 1s ease-in-out, background-color 1s, color 1s;
+    }
+    .exp:hover{
+        transform: scale(2,4);
+        background-color: blueviolet;
+        color: aliceblue;
+    }
+
+</style>
+
+
+
+<body>
+    <button class="sub">subscribe</button><br><br>
+    <button class="log">login</button><br><br>
+
+
+    <button class="roll">ROLL</button><br><br><br><br>
+
+    <button class="exp">expanto</button>
+
+</body>
+</html>
