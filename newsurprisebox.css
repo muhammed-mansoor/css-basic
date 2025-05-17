@@ -1,0 +1,22 @@
+.box {
+  background: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  user-select: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-after {
+  display: none; /* hide surprise text at first */
+}
+
+#toggle:checked ~ .text-before {
+  display: none; /* hide "Click me" when checked */
+}
+
+#toggle:checked ~ .text-after {
+  display: inline; /* show "Surprise!" when checked */
+}
