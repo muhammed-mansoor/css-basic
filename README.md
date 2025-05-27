@@ -1,4 +1,4 @@
-css basics:
+contents in this repository are :
 
 1. transition
 2. transform
