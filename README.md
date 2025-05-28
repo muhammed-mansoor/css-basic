@@ -5,4 +5,6 @@ contents in this repository are :
 3. grid
 4. flex
 5. hover
-6. 
+6. active
+7. position
+8. semantic elements
