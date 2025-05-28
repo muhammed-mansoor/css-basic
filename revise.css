@@ -1,0 +1,32 @@
+nav{
+    background-color: aquamarine;
+    height: 35px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+li{
+    list-style-type: none;
+    transition: all ease-in-out 1s;
+}
+li:hover{
+    transform:translateY(50px);
+    cursor: pointer;
+}
+button{
+    padding: 5px;
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all ease-in-out 1s;
+}
+button:hover{
+    transform: translateX(100px);
+}
+button:active{
+    background-color: aliceblue;
+    transform: scale(1.5) translateX(20px) rotate(180deg);
+}
