@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(59, 127, 187);
+    font-size: larger;
+}
+
+#toggle{
+    transition: all ease-in 0.15s;
+    cursor: pointer;
+    user-select: none;
+    
+}
+#toggle:active{
+    transform: translateX(50px);
+}
+
+.toggle-container2{
+    position: relative;
+}
+#toggle2{
+    position: absolute;
+    margin-top: 3px;
+    user-select: none;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+    scale: 1.8;
+    
+}
+#toggle2:active{
+    right: 0%;
+    transform: rotate(360deg);
+    background-color: rgb(98, 196, 196);
+}
